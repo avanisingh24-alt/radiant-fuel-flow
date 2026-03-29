@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        wellness: {
+          DEFAULT: "hsl(var(--wellness))",
+          light: "hsl(var(--wellness-light))",
+        },
+        terracotta: {
+          DEFAULT: "hsl(var(--terracotta))",
+          light: "hsl(var(--terracotta-light))",
+        },
+        lavender: {
+          DEFAULT: "hsl(var(--lavender))",
+          light: "hsl(var(--lavender-light))",
+        },
+        ocean: {
+          DEFAULT: "hsl(var(--ocean))",
+          light: "hsl(var(--ocean-light))",
+        },
+      },
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        serif: ['DM Serif Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
