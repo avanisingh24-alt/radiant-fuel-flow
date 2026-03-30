@@ -73,10 +73,16 @@ export default {
           DEFAULT: "hsl(var(--ocean))",
           light: "hsl(var(--ocean-light))",
         },
+        crimson: {
+          DEFAULT: "hsl(var(--crimson))",
+        },
+        bone: {
+          DEFAULT: "hsl(var(--bone))",
+        },
       },
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'],
-        serif: ['DM Serif Display', 'serif'],
+        sans: ['Crimson Text', 'serif'],
+        serif: ['Cinzel', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -85,20 +91,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
